@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     margin: 0;
 }
 
@@ -30,13 +31,14 @@ li:hover{
     padding: 2px;
 }
 
-.content{
+/* .content{
     height: 100vh;
-}
+} */
 
 .embeds1, .embeds2, .embeds3{
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .embeds1{
@@ -44,6 +46,9 @@ li:hover{
 }
 
 .button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
     border-radius: 10px;
     color: white;
     font-size: 24px;
@@ -76,6 +81,27 @@ li:hover{
     font-size: 45px;
     margin: 10px;
 }
+
+
+@media (max-width: 768px){
+    .button{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .button{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px){
+    .button{
+        font-size: 20px;
+    }
+}
+
+
 
 
 
