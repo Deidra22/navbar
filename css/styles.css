@@ -1,7 +1,57 @@
-.spidey{
-    height:200px;
+body{
+    margin: 0;
+}
+
+.main-nav{
+    background-color: purple;
+    color: palevioletred;
+    font-size: 25px;
+}
+
+.logo{
+    height:120px;
     width: 120px;
     border-radius: 10px;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 25px
+}
+.center{
+    float: right;
+    margin: 25px;
+    
+}
+
+li:hover{
+    background-color: turquoise;
+}
+
+.content{
+    height: 100vh;
+}
+
+.embeds1, .embeds2, .embeds3{
+    display: block;
+    margin: 0 auto;
+}
+
+.embeds1{
+    width: 100%;
+}
+
+.footer{
+    height: 60px;
+    background-color: purple;
+    margin-bottom: 0px;
+}
+
+.social{
+    font-size: 45px;
+    margin: 10px;
+    display: inline-block;
 }
 
 
