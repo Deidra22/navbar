@@ -1,4 +1,17 @@
-.box{
+.spidey{
+    height:200px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Classes used for float boxes in HTML */
+/* .box{
     height: 100px;
     width: 200px;
 }
@@ -35,4 +48,4 @@
     background-color: orange;
     float: right;
     clear: right;
-}
+} */
