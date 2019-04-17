@@ -71,6 +71,18 @@ li:hover{
     border: none;
 }
 
+span{
+    background-color: yellowgreen;
+}
+
+.family > span > span{
+    background-color: orange;
+}
+
+.second-span ~ .first-span{
+    color: red;
+}
+
 .footer{
     height: 60px;
     background-color: purple;
